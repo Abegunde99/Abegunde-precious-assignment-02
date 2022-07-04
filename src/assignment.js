@@ -19,7 +19,7 @@ function sumOfNumbers(arrayOfNumbers) {
     for(let arrayOfNumber of arrayOfNumbers){
        sum = sum += arrayOfNumber;
     }
-    return sum
+    return sum;
 }
 assignment.sumOfNumbers = sumOfNumbers;
 
