@@ -17,8 +17,9 @@ function sumOfNumbers(arrayOfNumbers) {
     // return arrayOfNumbers.length;
     let sum = 0;
     for(let arrayOfNumber of arrayOfNumbers){
-       return sum += arrayOfNumber;
+       sum = sum += arrayOfNumber;
     }
+    return sum
 }
 assignment.sumOfNumbers = sumOfNumbers;
 
